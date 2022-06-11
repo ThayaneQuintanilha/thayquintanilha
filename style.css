@@ -1,0 +1,66 @@
+body {
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    max-width: 1140px;
+    height: auto;
+    min-height: 80vh;
+    line-height: 1.5;
+    overflow-x: hidden;
+    background-color: rgb(240, 248, 255);
+}
+
+.borda {
+    text-align: center;
+    margin-top: 5%;
+}
+
+.borda-2 {
+    border: 10px solid pink;
+    text-align: center;
+    padding: 5px;
+    font-family: 'Roboto Mono', monospace;
+    margin: 0 50px;
+}
+
+.animacao , img{
+    animation: animacao 1.3s;
+}
+
+img {
+    width: 300px;
+    border-radius: 50%;
+    border: 5px solid white;
+    box-shadow: 0 10px pink;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.rodape-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 50px;
+    border: 10px solid pink;
+    margin: 0 50px;
+}
+
+.rodape-nav li {
+    margin-right: 150px;
+    margin-left: 150px;
+    list-style-type: none;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.rodape-nav li:hover {
+    background-color: pink;
+}
+
+@keyframes animacao {
+    from {
+        transform: translateY(25px);
+    }
+    to {
+        transform: translateY(0px);
+    }
+}
